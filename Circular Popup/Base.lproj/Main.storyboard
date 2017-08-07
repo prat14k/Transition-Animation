@@ -22,7 +22,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ykd-dI-sxj">
-                                <rect key="frame" x="137" y="42" width="46" height="46"/>
+                                <rect key="frame" x="225" y="156" width="46" height="46"/>
                                 <color key="backgroundColor" red="0.99607843137254903" green="1" blue="0.49411764705882355" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="46" id="sFO-uk-fcU"/>
@@ -37,16 +37,18 @@
                         </subviews>
                         <color key="backgroundColor" red="0.71764705882352942" green="1" blue="0.76078431372549016" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="Ykd-dI-sxj" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="22" id="2Bv-TL-U6e"/>
-                            <constraint firstItem="Ykd-dI-sxj" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="cAe-Te-4rF"/>
+                            <constraint firstItem="Ykd-dI-sxj" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="92" id="2Bv-TL-U6e"/>
+                            <constraint firstItem="Ykd-dI-sxj" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="88" id="cAe-Te-4rF"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="JOd-30-huz"/>
                     <connections>
                         <outlet property="menuBtn" destination="Ykd-dI-sxj" id="aAv-JF-LyB"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="941" y="-33"/>
         </scene>
         <!--Second Controller-->
         <scene sceneID="RjZ-pc-ide">
@@ -86,7 +88,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YQh-q6-dLf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="836" y="118"/>
+            <point key="canvasLocation" x="1624" y="-34"/>
         </scene>
     </scenes>
 </document>
